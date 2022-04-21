@@ -1,0 +1,16 @@
+body {
+  font-family: Palatino;
+}
+
+
+#reading-list{ 
+  display: flex;
+}
+.reading-list-item{
+margin: 10px;
+padding: 5px;
+background-color: aqua;
+border: 2px solid black;
+border-radius: 5%;
+
+}

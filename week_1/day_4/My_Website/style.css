@@ -1,0 +1,64 @@
+body{
+    margin:0;
+    font-family: 'Courier New', Courier, monospace;
+}
+header{
+    background-color: crimson;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding:10px;
+}
+header > nav > ul {
+    display: flex;
+}
+nav > ul > li {
+    list-style-type: none;
+    padding-right: 10px;
+}
+header > nav > ul > li> a {
+    text-decoration: none;
+    color: wheat;
+}
+h1{
+    margin: 0;
+}
+
+body > main {
+    display: flex;
+}
+/* 
+#picture-box{
+    padding: 100px;
+} */
+
+.elden-ring-picture{
+    width: 350px;
+}
+
+:hover.elden-ring-picture{
+width: 600%;
+}
+
+body > footer{
+    background-color: red;
+    display: flex;
+}
+
+section{
+    background-color: gray;
+    width: 250;
+    margin: 20px;
+
+}
+
+section > img {
+    width: 200px;
+}
+
+#top-stories{ 
+    display: flex;
+    overflow-x: scroll;
+
+}
+
